@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Charlie's Site</title>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/charlie.css">  
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+</head>
+<body>
+  <div class="container"> 
+    <h1 align="center">
+      Charlie's Site
+    </h1>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Bugatti</a></li>
+        <li><a href="#tabs-2">Lamborghini</a></li>
+        <li><a href="#tabs-3">Ferrari</a></li>
+        <li><a href="#tabs-4">McLeran</a></li>
+        <li><a href="#tabs-5">Audi</a></li>
+      </ul>
+      <div id="tabs-1">
+        <img class="centred" src="img/bugatti.jpg" alt="Chania">
+      </div>
+      <div id="tabs-2">
+        <img class="centred" src="img/lamborghini.jpg" alt="Chania">
+      </div>
+      <div id="tabs-3">
+        <img class="centred" src="img/ferrari.jpg" alt="Chania">
+      </div>
+      <div id="tabs-4">
+        <img class="centred" src="img/mclaren.jpg" alt="Chania">
+      </div>
+      <div class="centred" id="tabs-5">
+        <img class="centred" src="img/audi.jpg" alt="Chania">
+      </div>
+    </div>
+  </div>
+ 
+</body>
+</html>

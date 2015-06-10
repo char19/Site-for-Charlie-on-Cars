@@ -1,0 +1,8 @@
+.ui-widget-header {
+	background:red;
+}
+img.centred {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
